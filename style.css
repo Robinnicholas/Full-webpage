@@ -8,6 +8,8 @@
 
 header{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/laptop-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 568px;
     text-align: center;
 }
@@ -173,6 +175,7 @@ footer{
 }
 
 #btn-top{
+    display: none;
     position: fixed;
     bottom: 9%;
     right: 5%;
