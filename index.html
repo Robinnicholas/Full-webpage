@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <img class="logo" src="images/logo.png" alt="logo">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
             <ul class="nav-link">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -30,5 +30,81 @@
             <button class="search" type="submit"><i class="fa fa-search"></i></button>
         </form>
     </header>
+
+    <section class="section-one">
+        <article class="article-one">
+            <img src="images/book.png" width="80" height="80" alt="book" />
+                <h3>General</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-two">
+            <img src="images/installation.png" width="80" height="80" alt="book" />
+                <h3>Implementation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-three">
+            <img src="images/tutorial.png" width="80" height="80" alt="book" />
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-four">
+            <img src="images/basic-knowledge.png" width="80" height="80" alt="book" />
+                <h3>Basic Knowledge</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-five">
+            <img src="images/how-to.png" width="80" height="80" alt="book" />
+                <h3>How-to</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-six">
+            <img src="images/api.png" width="80" height="80" alt="book" />
+                <h3>API Reference</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-seven">
+            <img src="images/trubleshhoting.png" width="80" height="80" alt="book" />
+                <h3>Troubleshooting</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+        <article class="article-eight">
+            <img src="images/costume-service.png" width="80" height="80" alt="book" />
+                <h3>Costumer service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+        </article>
+    </section>
+    
+    <section class="section-two">
+        <article>
+            <h3>Didn’t find what you are looking for?</h3>
+            <p>Don’t worry! Let’s chat with US</p>
+            <a href="#request"><button class="cta-btn">Request a chat</button></a>
+        </article>
+    </section>
+
+    <footer>
+        <p>Copyright 2018 Code&CO ©. All rights Reserved</p>
+        <button id="btn-top">^</button>
+    </footer>
+
+    <script>
+        let mybutton = document.querySelector('#btn-top')
+        window.onscroll = () => {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 1015 || document.documentElement.scrollTop > 1015) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        mybutton.addEventListener('click',()=>{
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        })
+    </script>
 </body>
 </html>
