@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -23,6 +23,7 @@ nav{
 li,a,button{
     font-size: 0.9vw;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .logo{
@@ -72,6 +73,7 @@ h1{
     left: 20%;
     color: #ffffff;
     font-size: 2vw;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -150,12 +152,15 @@ input{
     color: #4a4a4a;
     font-size: 1.3vw;
     padding: 0 0 0.5vw;
+    font-weight: 600;
 }
 
 .article-one  p, .article-two  p, .article-three  p, .article-four  p,
 .article-five  p, .article-six  p, .article-seven  p, .article-eight  p{
     color: #858585;
     font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 32px;
     padding: 0 32px 0;
 }
 
@@ -168,16 +173,19 @@ input{
 }
 .section-two h3{
     font-size: 1.9vw;
+    font-weight: 600;
     padding:4vw 29vw 0.2vw ;
 }
 .section-two p{
     font-size: 1vw;
+    font-weight: 600;
     padding-bottom: 3.125vw;
 }
 
 footer{
     padding:1.6vw;
     font-size: 0.9vw;
+    font-weight: 600;
     background-color: #252525;
     color: #ffffff;
 }
