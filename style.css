@@ -17,7 +17,7 @@ header{
 
 nav{
     background-color: rgba(136, 136, 136, 0.5);
-    height: 11vh;
+    height: 9vh;
 }
 
 li,a,button{
@@ -110,7 +110,7 @@ input{
     float: left;
     width: 25%;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 14px 60px 15px;
     border-right: 1px solid #dcdcdc;
     border-bottom: 1px solid #dcdcdc;
 }
@@ -119,7 +119,7 @@ input{
     float: left;
     width: 25%;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 14px 60px 15px;
     border-right: 1px solid #dcdcdc;
 }
 
@@ -127,7 +127,7 @@ input{
     float: left;
     width: 25%;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 15px 60px;
     border-bottom: 1px solid #dcdcdc;
 }
 
@@ -135,26 +135,28 @@ input{
     float: left;
     width: 25%;
     text-align: center;
-    padding: 0 15px 40px;
+    padding: 0 15px 120px;
 }
 
 .article-one  img, .article-two img, .article-three img, .article-four img,
 .article-five  img, .article-six img, .article-seven img, .article-eight img{
-    margin: 3.3vw 7.8vw 1.5vw;
+    margin: 3.3vw 7.8vw 1.4vw;
     width: 30%;
     height: 30%;
 }
 
 .article-one  h3, .article-two  h3, .article-three  h3, .article-four  h3,
 .article-five  h3, .article-six  h3, .article-seven  h3, .article-eight  h3{
+    color: #4a4a4a;
     font-size: 1.3vw;
     padding: 0 0 0.5vw;
 }
 
 .article-one  p, .article-two  p, .article-three  p, .article-four  p,
 .article-five  p, .article-six  p, .article-seven  p, .article-eight  p{
+    color: #858585;
     font-size: 1.1vw;
-    padding: 0 0 4vw;
+    padding: 0 32px 0;
 }
 
 .section-two{
