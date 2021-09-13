@@ -23,7 +23,6 @@ nav{
 li,a,button{
     font-size: 0.9vw;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 .logo{
@@ -37,16 +36,19 @@ li,a,button{
     left: 15%;
     right: 20%;
     margin: 25px 0 0;
+    font-weight: 700;
 }
 
 li > a{
     padding: 11px 15px;
     text-decoration: none;
     color: #ffffff;
+    font-weight: 700;
 }
 
 li > a.active{
     color: #000000;
+    font-weight: 600;
 }
 
 .nav-link li{
@@ -65,6 +67,7 @@ li > a.active{
     background-color: #2086fb;
     border: none;
     border-radius: 25px;
+    font-weight: 600;
 }
 
 h1{
