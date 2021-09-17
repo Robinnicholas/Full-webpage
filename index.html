@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
     <header>
         <nav>
             <a href="index.html"><img class="logo" width="75" height="44" src="images/logo.png" alt="logo"></a>
@@ -22,89 +22,70 @@
                 <li><a href="#" class="active">Support</a></li>
                 <li><a href="#">Contacts</a></li>
             </ul>
-            <a class="cta" href="#"><button class="cta-btn">Try now</button></a>
+            <a href="javascript:void(0)" class="cta">Try now</a>
         </nav>
-        <h1>Get help about our products, basic knowledge and more</h1>
-        <form action="#" method="POST">
-            <input type="text" name="" id="" placeholder="Search for features, basic knowledge or options…"/>
-            <button class="search" type="submit"><i class="fa fa-search"></i></button>
-        </form>
+        <div class="header-content">
+            <h2>Get help about our products, basic knowledge and more</h2>
+            <form action="#" method="POST">
+                <input type="text" name="" id="" placeholder="Search for features, basic knowledge or options…"/>
+                <button class="search" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
     </header>
 
-    <section class="section-one">
-        <article class="article-one">
+    <section class="description">
+        <article class="items">
             <img src="images/book.png" width="80" height="80" alt="book" />
                 <h3>General</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-two">
+        <article class="items">
             <img src="images/installation.png" width="80" height="80" alt="book" />
                 <h3>Implementation</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-three">
+        <article class="items">
             <img src="images/tutorial.png" width="80" height="80" alt="book" />
                 <h3>Tutorial</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-four">
+        <article class="items">
             <img src="images/basic-knowledge.png" width="80" height="80" alt="book" />
                 <h3>Basic Knowledge</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-five">
+        <article class="items">
             <img src="images/how-to.png" width="80" height="80" alt="book" />
                 <h3>How-to</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-six">
+        <article class="items">
             <img src="images/api.png" width="80" height="80" alt="book" />
                 <h3>API Reference</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-seven">
+        <article class="items">
             <img src="images/trubleshhoting.png" width="80" height="80" alt="book" />
                 <h3>Troubleshooting</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
-        <article class="article-eight">
+        <article class="items">
             <img src="images/costume-service.png" width="80" height="80" alt="book" />
                 <h3>Costumer service</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
         </article>
     </section>
     
-    <section class="section-two">
-        <article>
-            <h3>Didn’t find what you are looking for?</h3>
-            <p>Don’t worry! Let’s chat with US</p>
-            <a href="#request"><button class="cta-btn">Request a chat</button></a>
-        </article>
+    <section class="contact">
+        <h2>Didn’t find what you are looking for?</h2>
+        <p>Don’t worry! Let’s chat with US</p>
+        <a href="javascript:void(0)" class="contact-cta">Request a chat</a>
     </section>
 
     <footer>
         <p>Copyright 2018 Code&CO ©. All rights Reserved</p>
-        <button id="btn-top">^</button>
+        <button class="btn-top"> &Wedge;</button>
     </footer>
 
-    <script>
-        let mybutton = document.querySelector('#btn-top')
-        window.onscroll = () => {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        mybutton.addEventListener('click',()=>{
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        })
-    </script>
 </body>
 </html>
