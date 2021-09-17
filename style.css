@@ -110,7 +110,9 @@ input::placeholder{
 
 .header-content{
     width: 926px;
-    margin: 147px auto 224px;
+    /* margin: 147px auto 224px; */
+    margin: 0 auto;
+    padding: 147px 0 224px;
 }
 
 .header-content h2{
@@ -203,4 +205,5 @@ footer{
     color: #979797;
     border-radius: 4px;
     border: none;
+    font-size: 23px;
 }
