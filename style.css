@@ -79,7 +79,6 @@ header h2{
 form{
     border-radius: 4px;
     background-color: #ffffff;
-    margin: 0 252px;
     border: 5px solid rgba(0, 0, 0, 0.6);
     padding: 15px;
     overflow: auto;
@@ -110,8 +109,8 @@ input::placeholder{
 }
 
 .header-content{
-    margin: 147px 0 224px;
-    
+    width: 926px;
+    margin: 147px auto 224px;
 }
 
 .header-content h2{
