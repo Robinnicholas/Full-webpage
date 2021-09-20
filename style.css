@@ -22,6 +22,10 @@ nav{
 }
 
 
+nav  .container{
+    margin: 0 auto;
+}
+
 nav > a{
     float: left;
     margin: 12px 0 12px 40px;   
@@ -116,10 +120,6 @@ input::placeholder{
     position: relative;
     top:30%;
     transform: translate(0,-50%);
-}
-
-.container{
-    margin: 0 auto;
 }
 
 .header-content h2{
