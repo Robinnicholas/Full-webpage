@@ -22,7 +22,7 @@ nav{
 }
 
 
-nav  .container{
+nav + .container{
     margin: 0 auto;
 }
 
