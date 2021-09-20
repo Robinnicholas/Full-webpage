@@ -79,7 +79,7 @@ header h2{
 form{
     border-radius: 4px;
     background-color: #ffffff;
-    border: 5px solid rgba(0, 0, 0, 0.6);
+    border: 5px solid rgba(117, 117, 117, 0.5);
     padding: 15px;
     overflow: auto;
 }
@@ -109,10 +109,11 @@ input::placeholder{
 }
 
 .header-content{
-    width: 926px;
-    /* margin: 147px auto 224px; */
+    max-width: 926px;
     margin: 0 auto;
-    padding: 147px 0 224px;
+    /* padding: 147px 0 224px; */
+    position: relative;
+    top: 30%;
 }
 
 .header-content h2{
@@ -207,3 +208,8 @@ footer{
     border: none;
     font-size: 23px;
 }
+
+
+/* with positions absolute -> top: 50%;left:50%;transform: translate(-50%,-50%);
+flex-box -> align-item:center;justify-content:center;
+grid -> place-items:center; */
