@@ -20,12 +20,13 @@ nav{
     background-color: rgba(136, 136, 136, 0.5);
 }
 
-nav > a >  img{
+
+nav > a{
     float: left;
-    margin: 12px 0 12px 40px;
+    margin: 12px 0 12px 40px;   
 }
 
-nav > a > img{
+nav > a >  img{
     display: block;
 }
 
@@ -37,7 +38,7 @@ nav > ul , ul > li{
 
 
 nav ul li{
-    padding: 25px 12px 24px 12px;
+    padding: 23px 12px 24px 12px;
 }
 
 nav ul li a{
@@ -110,10 +111,17 @@ input::placeholder{
 
 .header-content{
     max-width: 926px;
-    margin: 0 auto;
     /* padding: 147px 0 224px; */
     position: relative;
     top: 30%;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+container-fluid{
+    width: 100%;
 }
 
 .header-content h2{
@@ -122,7 +130,7 @@ input::placeholder{
 
 .description{
     overflow: auto;
-    padding: 41px 15px;
+    padding: 40px 25px;
 }
 
 
@@ -182,7 +190,7 @@ input::placeholder{
     color: #ffffff;
     text-decoration: none;
     border-radius: 22px;
-    padding:10px 48px 12px;
+    padding:10px 48px 10px;
     text-transform: uppercase;
     font-weight: 600;   
 }
@@ -209,7 +217,3 @@ footer{
     font-size: 23px;
 }
 
-
-/* with positions absolute -> top: 50%;left:50%;transform: translate(-50%,-50%);
-flex-box -> align-item:center;justify-content:center;
-grid -> place-items:center; */
