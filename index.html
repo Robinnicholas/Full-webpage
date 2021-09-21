@@ -11,7 +11,7 @@
 <body> 
     <header>
         <nav>
-            <a href="index.html"><img class="logo" width="75" height="44" src="images/logo.png" alt="logo"></a>
+            <a href="index.html"><img class="logo" width="75" height="44" src="images/logo.png" alt="Code and Co"></a>
             <ul class="nav-link">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -36,49 +36,65 @@
     <section class="description">
         <div class="container">
             <ul>
-                <li class="items">
-                    <img src="images/svg/general.svg" alt="General">
-                    <h3>General</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/installation.svg" alt="Implementation">
-                    <h3>Implementation</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/tutorial.svg" alt="Tutorial">
-                    <h3>Tutorial</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/basic-knowledge.svg" alt="Basic Knowledge">
-                    <h3>Basic Knowledge</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/general.svg" alt="General">
+                        <h3>General</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/installation.svg" alt="Implementation">
+                        <h3>Implementation</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/tutorial.svg" alt="Tutorial">
+                        <h3>Tutorial</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/basic-knowledge.svg" alt="Basic Knowledge">
+                        <h3>Basic Knowledge</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
             </ul>
             <hr>
             <ul>        
-                <li class="items">
-                    <img src="images/svg/how-to.svg" alt="How-to">
-                    <h3>How-to</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/api.svg" alt="API Reference">
-                    <h3>API Reference</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/trubleshhoting.svg" alt="Troubleshooting">
-                    <h3>Troubleshooting</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
-                <li class="items">
-                    <img src="images/svg/costume-service.svg" alt="Costumer service">
-                    <h3>Costumer service</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
-                </li>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/how-to.svg" alt="How-to">
+                        <h3>How-to</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/api.svg" alt="API Reference">
+                        <h3>API Reference</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/trubleshhoting.svg" alt="Troubleshooting">
+                        <h3>Troubleshooting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li class="items">
+                        <img src="images/svg/costume-service.svg" alt="Costumer service">
+                        <h3>Costumer service</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </p>
+                    </li>
+                </a>
             </ul>
         </div>
     </section>
@@ -95,6 +111,15 @@
         <p>Copyright 2018 Code&CO ©. All rights Reserved</p>
         <button class="btn-top"><span class="arrow-up"></span></button>
     </footer>
+
+    <script>
+        let btnTop = document.querySelector("button.btn-top");
+
+        btnTop.addEventListener("click", ()=>{
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+    </script>
 
 </body>
 </html>
